@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/bunnybones1/esbuild-hotserve/issues"
   },
-  "homepage": "https://github.com/bunnybones1/esbuild-hotserve#readme"
+  "homepage": "https://github.com/bunnybones1/esbuild-hotserve#readme",
+  "dependencies": {
+    "esbuild": "^0.14.41",
+    "get-port": "^6.1.2"
+  }
 }
