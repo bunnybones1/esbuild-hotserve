@@ -1,6 +1,6 @@
 {
   "name": "esbuild-hotserve",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A utility for ESBuild to help facilitate test-driven development",
   "main": "index.js",
   "scripts": {
