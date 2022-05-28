@@ -4,7 +4,7 @@ import { spawn } from "child_process";
 import process from "process";
 import getPort, { portNumbers } from "get-port";
 
-export default function esbuildHotserve(plugins) {
+export default async function esbuildHotserve(plugins) {
   const clients = [];
   const testPort = await getPort({port: portNumbers(8000, 8500)})
   const libPort = await getPort({port: portNumbers(3000, 3500)})
